@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>icu.lowcoder.spring.commons</groupId>
+        <artifactId>commons-parent</artifactId>
+        <version>3.2.0</version>
+        <relativePath>./commons-parent</relativePath>
+    </parent>
+
+    <artifactId>commons-builder</artifactId>
+    <packaging>pom</packaging>
+
+    <name>commons-builder</name>
+
+    <modules>
+        <module>commons-parent</module>
+        <module>jpa-spring-boot/jpa-spring-boot-autoconfigure</module>
+        <module>jpa-spring-boot/jpa-spring-boot-starter</module>
+        <module>sms-spring-boot/sms-spring-boot-autoconfigure</module>
+        <module>sms-spring-boot/sms-spring-boot-starter</module>
+        <module>wechat-spring-boot/wechat-spring-boot-autoconfigure</module>
+        <module>wechat-spring-boot/wechat-spring-boot-starter</module>
+        <module>robot-verification-spring-boot/robot-verification-spring-boot-autoconfigure</module>
+        <module>robot-verification-spring-boot/robot-verification-spring-boot-starter</module>
+        <module>exception-spring-boot/exception-spring-boot-autoconfigure</module>
+        <module>exception-spring-boot/exception-spring-boot-starter</module>
+        <module>logging-spring-boot/logging-spring-boot-autoconfigure</module>
+        <module>logging-spring-boot/logging-spring-boot-starter</module>
+        <module>thread-spring-boot/thread-spring-boot-autoconfigure</module>
+        <module>thread-spring-boot/thread-spring-boot-starter</module>
+        <module>actuator-spring-boot/actuator-spring-boot-autoconfigure</module>
+        <module>actuator-spring-boot/actuator-spring-boot-starter</module>
+        <module>feign-spring-boot/feign-spring-boot-autoconfigure</module>
+        <module>feign-spring-boot/feign-spring-boot-starter</module>
+        <module>security-spring-boot/security-spring-boot-autoconfigure</module>
+        <module>security-spring-boot/security-spring-boot-starter</module>
+        <module>ali-spring-boot/ali-spring-boot-autoconfigure</module>
+        <module>ali-spring-boot/ali-spring-boot-starter</module>
+        <module>commons-utils</module>
+        <module>baidu-map-spring-boot/baidu-map-spring-boot-autoconfigure</module>
+        <module>baidu-map-spring-boot/baidu-map-spring-boot-starter</module>
+        <module>cache-spring-boot/cache-spring-boot-autoconfigure</module>
+        <module>cache-spring-boot/cache-spring-boot-starter</module>
+
+    </modules>
+
+</project>
